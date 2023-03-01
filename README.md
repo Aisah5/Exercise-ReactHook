@@ -1,2 +1,3 @@
-# Exercise1
-Exercise Purwadhika HTML dan CSS
+# Exercise2
+Exercise Purwadhika dengan React Hooks
+
