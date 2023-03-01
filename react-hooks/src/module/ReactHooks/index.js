@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useCounter from './index.js'
+
 
 import useProfile from './useProfile.json'
 
