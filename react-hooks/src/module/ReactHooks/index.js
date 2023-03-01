@@ -11,7 +11,7 @@ function ReactHooks() {
           <header>
             <div class="container-logo">
               <div class="header-left">
-                <div class="header-name">CURICULLUM VITAE</div>
+                <div class="header-name">Aisah</div>
               </div>
               <div class="header-right">
                 <a href="#about">About</a>
