@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import ReactHooks from './modules/ReactHooks';
+import ReactHooks from './module/ReactHooks';
 import './App.css';
 
 function App() {

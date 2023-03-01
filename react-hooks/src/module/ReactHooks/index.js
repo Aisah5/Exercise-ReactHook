@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import useCounter from './module/index.js'
+import useCounter from './index.js'
 
-import useProfile from '.data.json'
+import useProfile from './useProfile.json'
 
 function ReactHooks() {
-    const { name, work, resume } = data;
+    const { name, work, resume } = useProfile;
 
     return (
         <div>
