@@ -7,7 +7,7 @@ import styled from './style.css'
 
 function ReactHooks() {
     // const [count, increments, decrements] = useCounter(0,1);
-    const { name, work, resume } = useProfile;
+    const { name, work, resume, education, experience } = useProfile;
 
     useEffect(() => {
         document.title = "Aisah Port"
@@ -29,7 +29,7 @@ function ReactHooks() {
             </div>
           </header>
         <br/> <br/> <br/>
-            <div class="top-wrapper" id="about">
+        <div class="top-wrapper" id="about">
             <div class="containers">
                 <h1>{name}</h1>
                 <h2>{work}</h2>
@@ -37,6 +37,21 @@ function ReactHooks() {
                 <br/>
             </div>
         </div>
+
+        <div  id="resume" class="extra-satu">
+          <div class="education">
+            <h1>EDUCATION</h1>
+            <p>{education}</p>
+          </div>
+          <br/><br/>
+          <div class="experience">
+            <h1>EXPERIENCE</h1>
+            <p>{experience}</p>
+          </div>
+        </div>
+
+
+
         </body>
         
     )

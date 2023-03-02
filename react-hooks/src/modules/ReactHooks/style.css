@@ -88,9 +88,23 @@ CSS WRAPPER
   /* ////////////////////////
   CSS KONTEN
   //////////////////////// */
-  .konten {
+  /* .konten {
     text-align: center;
     background: #FFFAFA;
     padding: 50px;
   }
-  
+   */
+
+
+
+
+/* ////////////////////////
+CSS WRAPPER
+//////////////////////// */
+
+.extra-satu {
+    text-align: center;
+    background: rgb(30, 30, 46);
+    padding: 100px;
+    color: white;
+  }
