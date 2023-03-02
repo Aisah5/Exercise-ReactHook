@@ -6,8 +6,7 @@ import styled from './style.css'
 
 
 function ReactHooks() {
-    // const [count, increments, decrements] = useCounter(0,1);
-    const { name, work, resume, education, experience } = useProfile;
+    const { name, work, resume, education, experience, portfolio } = useProfile;
 
     useEffect(() => {
         document.title = "Aisah Port"
@@ -60,7 +59,7 @@ function ReactHooks() {
             </div>
             <div class="body-card">
             <h1>Porfolio 1</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            <p>{portfolio}</p>
             </div>
         </div>
         <div class="card">
@@ -69,7 +68,7 @@ function ReactHooks() {
             </div>
             <div class="body-card">
             <h1>Porfolio 2</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            <p>{portfolio}</p>
             </div>
         </div>  
         <div class="card">
@@ -78,7 +77,7 @@ function ReactHooks() {
             </div>
             <div class="body-card">
             <h1>Porfolio 3</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            <p>{portfolio}</p>
             </div>
         </div>  
         <div class="card">
@@ -87,10 +86,15 @@ function ReactHooks() {
             </div>
             <div class="body-card">
                 <h1>Porfolio 4</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+                <p>{portfolio}</p>
             </div>
         </div>
         </div>
+
+
+        <br/><br/><br/><br/>
+
+
 
         </body>
         
