@@ -178,4 +178,31 @@ CSS CARD
  
     margin: 0 10px;
   }
+}
+
+
+/*--------------------------------------------------------------
+# FOOter
+--------------------------------------------------------------*/
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(30, 30, 46);
+    bottom: 0;
+  
+    text-align: center;
   }
+  
+.footer h2 {
+  padding-top: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: #FFFAFA;
+
+}
+
+.footer p {
+  text-align: center;
+  color: #FFFAFA;
+
+}

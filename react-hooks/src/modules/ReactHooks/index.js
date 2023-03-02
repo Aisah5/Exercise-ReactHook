@@ -6,7 +6,7 @@ import styled from './style.css'
 
 
 function ReactHooks() {
-    const { name, work, resume, education, experience, portfolio } = useProfile;
+    const { name, work, resume, education, experience, portfolio, footer } = useProfile;
 
     useEffect(() => {
         document.title = "Aisah Port"
@@ -94,7 +94,12 @@ function ReactHooks() {
 
         <br/><br/><br/><br/>
 
-
+        <footer>
+          <div id="contact" class="footer">
+            <h2>CONTACT ME</h2>
+            <p>{footer}</p>
+          </div>
+        </footer>
 
         </body>
         
