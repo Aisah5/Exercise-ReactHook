@@ -1,0 +1,39 @@
+/* ////////////////////////
+CSS WRAPPER
+//////////////////////// */
+.top-wrapper {
+  
+    padding: 250px;
+    background: url(top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .containers {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    top: 35%;
+    left: 70%;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* ////////////////////////
+  CSS KONTEN
+  //////////////////////// */
+  .konten {
+    text-align: center;
+    background: #FFFAFA;
+    padding: 50px;
+  }
+  
