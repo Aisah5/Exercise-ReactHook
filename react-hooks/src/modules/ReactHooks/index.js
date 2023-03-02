@@ -37,7 +37,7 @@ function ReactHooks() {
                 <br/>
             </div>
         </div>
-
+        <br/><br/><br/><br/>
         <div  id="resume" class="extra-satu">
           <div class="education">
             <h1>EDUCATION</h1>
@@ -49,8 +49,48 @@ function ReactHooks() {
             <p>{experience}</p>
           </div>
         </div>
+        <br/><br/><br/><br/>
 
 
+
+        <div id="portfolio" class="konten">
+            <div class="card">
+            <div class="head-card">
+            <p src="top.png" alt=""></p>
+            </div>
+            <div class="body-card">
+            <h1>Porfolio 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="head-card">
+                <p src="top.png" alt=""></p>
+            </div>
+            <div class="body-card">
+            <h1>Porfolio 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            </div>
+        </div>  
+        <div class="card">
+            <div class="head-card">
+            <p src="top.png" alt=""></p>
+            </div>
+            <div class="body-card">
+            <h1>Porfolio 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            </div>
+        </div>  
+        <div class="card">
+            <div class="head-card">
+            <p src="top.png" alt=""></p>
+            </div>
+            <div class="body-card">
+                <h1>Porfolio 4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae fuga facilis dicta fugiat voluptates deleniti libero earum sed aliquid. </p>
+            </div>
+        </div>
+        </div>
 
         </body>
         
