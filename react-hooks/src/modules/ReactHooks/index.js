@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 
 import useProfile from './json/userProfile.json'
@@ -27,7 +27,7 @@ function ReactHooks() {
               </div>
             </div>
           </header>
-        <br/> <br/> <br/>
+        <br/> <br/>
         <div class="top-wrapper" id="about">
             <div class="containers">
                 <h1>{name}</h1>
